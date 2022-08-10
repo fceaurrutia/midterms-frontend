@@ -1,7 +1,7 @@
-import "../styles/globals.css";
-import type { AppProps } from "next/app";
-import { ChakraProvider } from "@chakra-ui/react";
-import { QueryClient, QueryClientProvider } from "react-query";
+import '../styles/globals.css';
+import type { AppProps } from 'next/app';
+import { ChakraProvider } from '@chakra-ui/react';
+import { QueryClient, QueryClientProvider } from 'react-query';
 
 const queryClient = new QueryClient({
   defaultOptions: {
