@@ -1,4 +1,4 @@
-import { gql } from "graphql-request";
+import { gql } from 'graphql-request';
 
 export const GET_USERS = gql`
   query getUsers {
@@ -17,5 +17,11 @@ export const GET_USER_ID = gql`
       name
       email
     }
+  }
+`;
+
+export const LOGIN = gql`
+  query Query($loginInfo: InputLogin!) {
+    Login(loginInfo: $loginInfo)
   }
 `;
