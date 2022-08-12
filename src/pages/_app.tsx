@@ -3,7 +3,6 @@ import { ChakraProvider } from '@chakra-ui/react';
 import { QueryClient, QueryClientProvider } from 'react-query';
 import { theme } from '../styles/styles';
 import { AuthProvider } from '../contexts/useAuth';
-import { ReactNode } from 'react';
 
 const queryClient = new QueryClient({
   defaultOptions: {
